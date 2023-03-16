@@ -11,7 +11,9 @@ const notoSansKR = Noto_Sans_KR({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${notoSansKR.variable} mx-auto max-w-md font-sans`}>
+    <main
+      className={`${notoSansKR.variable} gird-cols-1 mx-auto mb-6 grid max-w-md divide-y font-sans md:max-w-lg lg:max-w-2xl xl:max-w-4xl 2xl:max-w-7xl`}
+    >
       <Component {...pageProps} />
     </main>
   );

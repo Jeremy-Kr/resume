@@ -1,6 +1,12 @@
-import Contact from "@/components/Contact";
-import Info from "@/components/Info";
 import Head from "next/head";
+import {
+  Contact,
+  Experiences,
+  Info,
+  Projects,
+  Skills,
+  Stacks,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -12,6 +18,16 @@ export default function Home() {
       </Head>
       <Info />
       <Contact />
+      <Stacks />
+      <Projects />
+      <Skills />
+      <Experiences />
     </>
   );
 }
+
+export const getStaticProps = async () => {
+  return {
+    props: {},
+  };
+};

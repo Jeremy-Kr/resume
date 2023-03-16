@@ -3,17 +3,16 @@ import profilePic from "@/public/images/profile.png";
 
 const Info = () => {
   return (
-    <section className="mt-6">
+    <section className="mt-6 w-full">
       <div className="flex items-center justify-center gap-2">
-        <div className="flex w-1/4 overflow-hidden rounded-full bg-gradient-to-r from-[#6cace8] to-[#10b981] p-1">
-          <div className="items-center justify-center rounded-full bg-white opacity-80">
-            <Image
-              placeholder="blur"
-              src={profilePic}
-              alt="Profile Image"
-              sizes="100%"
-            />
-          </div>
+        <div className="relative h-32 w-32">
+          <Image
+            placeholder="blur"
+            src={profilePic}
+            alt="Profile Image"
+            fill
+            className="rounded-full border-4 border-emerald-500 object-cover"
+          />
         </div>
         <h1 className="text-3xl font-bold">
           안녕하세요<span className="text-emerald-500">!</span>
