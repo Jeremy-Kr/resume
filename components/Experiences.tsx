@@ -1,11 +1,11 @@
 const Experiences = () => {
   return (
     <section className="mx-auto mt-6 w-full px-2">
-      <h2 className="mt-6 text-3xl font-bold">
+      <h2 className="mt-6 text-4xl font-bold">
         <span className="text-emerald-500">E</span>xperiences
       </h2>
       <div className="flex flex-col items-start md:flex-row">
-        <div className="md: w-1/3">
+        <div className="md: w-2/5">
           <h3 className="mt-6 text-2xl font-bold">
             <span className="text-emerald-500">내</span>일배움캠프
           </h3>

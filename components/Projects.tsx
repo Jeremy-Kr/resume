@@ -3,7 +3,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <section className="mx-auto mt-6 w-full px-2">
-      <h2 className="mt-6 text-3xl font-bold">
+      <h2 className="mt-6 text-4xl font-bold">
         <span className="text-emerald-500">P</span>rojects
       </h2>
       <div className="flex flex-col">
