@@ -49,7 +49,7 @@ const Projects = () => {
           <span className="text-emerald-500">W</span>hat did I do
         </p>
         <p className="mt-2 text-base font-normal">
-          - 디자이너 - 개발팀 사이 의견 조율 및 소통
+          - figma를 활용한 디자이너 - 개발팀 사이 의견 조율 및 소통
           <br />
           <Link
             target="_blank"
@@ -83,7 +83,7 @@ const Projects = () => {
           <span className="text-emerald-500">T</span>ech Stack
         </p>
         <p className="mt-2 text-base font-normal">
-          Next.js, TypeScript, Recoil, React-query
+          Next.js, TypeScript, Recoil, React-query, supabase
         </p>
       </div>
     </section>
